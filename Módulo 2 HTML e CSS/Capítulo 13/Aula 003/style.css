@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+body {
+   background-color: #5500D9;
+}
+
+h1 {
+   color: #00D92F;
+   text-align: center;
+}
+
+h2 {
+   text-align: center;
+   color: #D97700;
+}
+
+p {
+   text-align: center;
+}
+
+b {
+   color: #3E2D59;
+}

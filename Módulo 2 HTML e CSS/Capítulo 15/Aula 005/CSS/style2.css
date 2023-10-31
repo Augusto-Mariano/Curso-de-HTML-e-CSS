@@ -1,0 +1,73 @@
+/* Global styles */
+@charset "utf-8";
+
+body {
+   font: Arial, Helvetica, sans-serif;
+   margin: 0;
+   background: linear-gradient(to right, white, gray, black);
+   text-shadow: 5px 5px 5px gray;
+}
+
+/* Header styles */
+header {
+   background: white;
+   padding: 10px;
+   margin: 10px;
+   text-shadow: 5px 5px 5px rgb(165, 165, 165);
+   box-shadow: 10px 10px 10px black;
+}
+
+/* Navigation styles */
+nav {
+   background: rgb(102, 102, 102);
+   padding: 3px;
+   box-shadow: 5px 5px 5px rgb(160, 160, 160);
+}
+
+nav>a {
+   color: white;
+   text-decoration: none;
+   padding: auto;
+   margin: auto;
+}
+
+nav>a:hover {
+   text-decoration: underline;
+   text-shadow: 5px 5px 5px gray;
+}
+
+/* Article styles */
+article {
+   background-color: gray;
+   font: 1em Arial, Helvetica, sans-serif;
+   margin: 10px;
+   font-weight: bold;
+   border-radius: 5px;
+   text-shadow: 5px 5px 5px gray;
+}
+
+/* Ball styles */
+#bola {
+   height: 100px;
+   width: 100px;
+   background-image: linear-gradient(to left, black, gray, white);
+   border-radius: 50%;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+
+/* Footer styles */
+footer {
+   background-image: linear-gradient(to right, white, gray, black);
+   padding: 10px;
+   text-align: auto;
+   text-shadow: 5px 5px 5px rgb(165, 165, 165);
+   box-shadow: 10px 10px 10px gray;
+   position: fixed;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   margin: 0;
+}

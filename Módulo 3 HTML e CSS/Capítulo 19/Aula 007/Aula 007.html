@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Alinhamento Vertical</title>
+      <style>
+         #container {
+            background-image: url(../Imagens/target001.png);
+            background-size: 100% 100%;
+            position: relative;
+            height: 500px;
+            padding: 10px;
+            background-color: purple;
+         }
+
+         /*
+   Ao utilizar a tag position:absolute, você tem a possibilidade de utilizar outras propriedades muito úteis.
+   A left e a top.
+   */
+         #conteudo {
+            background-image: url(../Imagens/target001.png);
+            background-size: 100% 100%;
+            position: absolute;
+            height: 200px;
+            width: 400px;
+            background-color: yellow;
+            left: 50%;
+            top: 50%;
+         /*
+         Para usar a tag transform wife translate, deve ser usado os valores em positivo e negativo para mexer, sendo positivo para direita e negativo para a esquerda.
+         */
+            transform: translate(-50%, -50%)
+         }
+
+         /*
+         Em resumo para movimentar qualquer box na tela, basta usar esta configuração a via de necessidade, container no pai e conteudo no filho.
+         */
+      </style>
+   </head>
+         <!--
+         Ao utilizar o alinhamento vertical, e necessário utilizar o id=container e e o id=conteudo. Cada um sendo usado respectivamente para a sua section e seu article.
+         -->
+
+   <body>
+      <section id="container">
+         <article id="conteudo"></article>
+      </section>
+   </body>
+
+</html>

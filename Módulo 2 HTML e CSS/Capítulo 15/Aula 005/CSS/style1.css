@@ -1,0 +1,20 @@
+@charset "utf-8";
+
+/*
+Shorthands são formas de simplificar o código e deixar mais clean, são as opções unanimes para manter um código organizado e fácil de ler.
+*/
+h1 {
+   text-align: center;
+   height: auto;
+   width: auto;
+   border: 5px dashed green;
+   padding: auto;
+   /* Caso a medida de todos os lados sejam a mesma, apenas coloque uma vez que já vai valer para todos.*/
+   /* Caso você coloque 2 valores, o de cima e o debaixo ficam iguais e esquerda e direita fica igual também.*/
+   margin: auto;
+   outline: black 5px initial;
+}
+
+a {
+   border: 5px dashed #ff0101;
+}

@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+/*
+Em HTML é id = em CSS é #
+Em HTML é class = em CSS é .
+*/
+
+body {
+   background-color: rgba(192, 187, 187, 0.459);
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+   color: blue;
+   font-size: 40px;
+}
+
+/*
+Não e possível usar o mesmo id em vários lugares no mesmo documento.
+Porém é possível usar a mesma classe em vários lugares no mesmo documento.
+*/
+#título {
+   color: green;
+   font-size: 50px;
+   text-align: center;
+   text-shadow: 5px 5px 10px rgb(122, 227, 122);
+}
+
+.título1 {
+   color: #f074f4;
+   font-size: 50px;
+   text-align: center;
+   text-shadow: 5px 5px 10px #ef74f46f;
+}
+
+h2 {
+   color: red;
+   font-size: 30px;
+}
