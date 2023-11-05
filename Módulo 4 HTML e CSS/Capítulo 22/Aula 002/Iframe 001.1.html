@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Iframes</title>
+      <style>
+         iframe {
+            box-shadow: 1px 1px 10px black;
+         }
+      </style>
+   </head>
+
+   <body>
+      <h1>Oque significa <i>Iframe</i></h1>
+      <p>A sigla Iframe, o I no começo significa inline, ou seja, inline frame.</p>
+      <h1>Testando o uso de <i>Iframe</i></h1>
+      <!--
+         Tamanho padrão para Iframes 300x150.
+         As configurações de estilo seguem a prioridade das CSSs.
+         Tbm e possível inserir parâmetros como o "scrolling".
+         E possível também modificar a borda dos iframes utilizando CSS.
+      -->
+      <p>Acessando o site do <iframe src="https://www.cursoemvideo.com" frameborder="1"> <a href="https://www.cursoemvideo.com" target="_blank" scrolling="no">Curso em Vídeo</a></iframe> para
+         aprender
+         programar.</p>
+      <!-- Caso  o iframe ñ funcione no navegador, coloque dentro da tag, outra tag a para substituir e o usuário seguir para o site que você deseja.-->
+      <iframe src="https://www.google.com/" frameborder="1"></iframe>
+      <p>Alguns sites não aceitam iframe, como exemplo. O site do google.</p>
+   </body>
+
+</html>
