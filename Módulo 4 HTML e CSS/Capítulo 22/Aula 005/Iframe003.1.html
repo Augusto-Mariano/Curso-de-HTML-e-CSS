@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Uso de Iframes</title>
+      <style>
+         iframe {
+            width: 100%;
+            height: 400px;
+            border: 1px solid #000;
+         }
+
+         a {
+            text-decoration: underline;
+            color: #000;
+         }
+      </style>
+   </head>
+
+   <body>
+      <h1>Testando links para dentro do Iframe.</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae exercitationem facere alias libero nulla
+         reprehenderit delectus debitis? Eligendi, corrupti voluptates ipsam explicabo magnam sequi. Sint expedita
+         voluptatum ab veritatis tempora!</p>
+      <!--
+         E possível utilizar um parâmetro dentro do iframe chamado name="", para poder mostrar sites dentro do iframe com a tag "a". Basta adicionar o parâmetro target na tag a que deseja utilizar para seguir até a página que vai mostrar no iframe e colocar o nome que você no parâmetro name no iframe.
+      -->
+      <!--
+         Existe outro parâmetro que pode ser utilizado dentro dos iframes. O parâmetro srcdoc. Dentro dele, podemos inserir HTML.
+      -->
+      <ul>
+         <li><a href="../Aula 001/Iframe 001.html" target="frame">Página 1</a></li>
+         <li><a href="../Aula 002/Iframe 001.1.html" target="frame">Página 2</a></li>
+         <li><a href="../Aula 003/Iframe002.html" target="frame">Página 3</a></li>
+      </ul>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae exercitationem facere alias libero nulla
+         reprehenderit delectus debitis? Eligendi, corrupti voluptates ipsam explicabo magnam sequi. Sint expedita
+         voluptatum ab veritatis tempora!</p>
+      <iframe src="" frameborder="0" name="frame"></iframe>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni fugit reprehenderit mollitia, quasi officia
+         eveniet quas inventore rem quos nemo nesciunt sed velit distinctio autem non aspernatur ea a laborum.</p>
+      <iframe srcdoc="
+         <h1> Artigos Científicos </h1>
+         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, vitae. Excepturi, expedita quo. Ipsam exercitationem minima tenetur facere ratione ea temporibus, distinctio ipsa, dicta molestias quisquam dolor ex unde eum?</p>
+         <h2>Artigo 1</h2>
+         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis itaque perferendis, iusto odio hic est asperiores unde corrupti eligendi? Odio, quam nam a velit perferendis ratione veniam sit pariatur dolorum.</p>
+         <h2>Artigo 2</h2>
+         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis itaque perferendis, iusto odio hic est asperiores unde corrupti eligendi? Odio, quam nam a velit perferendis ratione veniam sit pariatur dolorum.</p>
+         <h2>Artigo 3</h2>
+         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis itaque perferendis, iusto odio hic est asperiores unde corrupti eligendi? Odio, quam nam a velit perferendis ratione veniam sit pariatur dolorum.</p>
+         " frameborder="0"></iframe>
+   </body>
+
+</html>
